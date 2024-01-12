@@ -9,4 +9,4 @@ Traditionally, scoring this intricate figure has been a meticulous and error-pro
 
 Addressing the challenge posed by the data-intensive nature of deep learning models and the difficulty in obtaining sufficient hand-drawn ROCF data, I devised a simulation program based on computer vision. This program generates synthetic hand-drawn ROCF figures along with their corresponding scores. Subsequently, this synthetic dataset was utilized to train a DenseNet model. To enhance the model's performance, fine-tuning was performed using a more limited real dataset (figures drawn by humans).
 
-As a result, the project achieved impressive metrics on the testing set, boasting a Mean Absolute Error (MAE) of 1.24 and an R-squared value of 0.97. The model is currently undergoing continuous training to further optimize its performance and refine its predictive capabilities.
+As a result, the project achieved impressive metrics on the testing set, boasting a Mean Absolute Error (MAE) of 1.2 and an R-squared value of 0.98. The model is currently undergoing continuous training to further optimize its performance and refine its predictive capabilities.
